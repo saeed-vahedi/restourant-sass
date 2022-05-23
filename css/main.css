@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 70px;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #d3ab55;
+  text-align: center;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #d3ab55;
+}
+
+.logo-p {
+  color: #8d8c8c;
+  letter-spacing: 5px;
+  font-family: f-jos;
+  margin-left: 20px;
+}
+
+.reserve-header {
+  font-size: 100px;
+  font-family: "Smooch", cursive;
+  letter-spacing: 5px;
+  font-weight: 300;
+  color: #d3ab55;
+}
+
+.reserve-heading {
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 50;
+  color: #d3ab55;
+}
+
+.reserve-btn {
+  margin-top: 20px;
+  width: 130px;
+  height: 40px;
+  background-color: transparent;
+  color: #8d8c8c;
+  border: 1px solid #d3ab55;
+  border-radius: 5px;
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.reserve-btn:hover {
+  background-color: #8d8c8c;
+  color: #d3ab55;
+  border: none;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6))), url(../images/bg.jpeg) center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/bg.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header-logo {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+
+.header-reserve {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=main.css.map */

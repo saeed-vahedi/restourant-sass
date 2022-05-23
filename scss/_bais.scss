@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+$f-dan: "Dancing Script", cursive;
+$f-jos: "Josefin Sans", sans-serif;
+$f-nun: "Nunito", sans-serif;
+$f-smo: 'Smooch', cursive;
+
+$cd: #262626;
+$c1: #d3ab55;
+$c2 : rgb(141, 140, 140);
+
+@mixin centering($top) {
+    position: absolute;
+    top: $top;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+@mixin flex-align {
+    justify-content: center;
+    align-items: center;
+    
+}
